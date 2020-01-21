@@ -23,9 +23,11 @@ namespace Lab_2_1_Room_Calculator
 
                 double perimeter = 2 * length + 2 * width;
                 double area = length * width;
+                double volume = area * HEIGHT;
 
                 Console.WriteLine("Area: " + area);
                 Console.WriteLine("Perimeter: " + perimeter);
+                Console.WriteLine("Volume: " + volume);
 
                 if (area <= 250)
                 {
