@@ -46,6 +46,7 @@ namespace Lab_2_1_Room_Calculator
                 repeat = char.Parse(input);
 
             }
+            Console.WriteLine("Thank you for using the Room Detail Generator!");
         }
     }
 }
